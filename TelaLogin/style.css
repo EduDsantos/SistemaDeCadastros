@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+
+body {
+    background-image: url(../TelaRegistro/images/image2.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgLogo{
+    position: absolute;
+   width: 500px;
+   height: 294px;
+  
+
+}
+.container {
+    margin-top: 10rem;
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(250, 250, 250, 0.712);
+    box-shadow: 2px 5px 5px 1px rgb(10, 37, 78);
+    backdrop-filter: blur(2px);
+    color: #FFF;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+
+
+.container h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.container .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    color: #FFF;
+    outline: none;
+    border: 2px solid rgba(250, 250, 250, 0.712);
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #ffffff49;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.container .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-top: -30px;
+    padding: 10px;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background-color:transparent;
+    border: 1px solid #5aacc5;
+    color: #FFF;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: #FFF;
+    color: #5aacc5;
+}
+
+.container .register {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px 0 15px;
+}
+
+.register p a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    color: #FFFF;
+    text-align: center;
+   
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFF;
+
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #5aacc5;
+}
+
