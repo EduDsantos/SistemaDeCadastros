@@ -10,6 +10,8 @@
 
 
 <body>
+
+
     <header>
         <div class="logo">
             <img src="./images/logo.png" alt="">
@@ -23,7 +25,7 @@
                 <a href="../TelaLogin/index.php">ENTRAR</a>
             </div>
             <div class="registrar">
-            <a href="../TelaRegistro/index.php">REGISTRAR-SE</a>
+                <a href="../TelaRegistro/index.php">REGISTRAR-SE</a>
             </div>
         </div>
     </div>

@@ -13,9 +13,13 @@
 <body>
 
 
+
+    <div class="back">
+        <label>Voltar</label>
+        <a href="../TelaInicial/index.php"><img class="iconBack" src="images/icon.png" alt="iconeDeVoltar"></a>
+    </div>
+
     <main>
-        <a href="../TelaInicial/index.php"> Voltar</a>
-        <!-- <img src="./images/LogoJiu.png" alt="LogoImage" class="imgLogo"> -->
         <div class="container">
 
             <h1>LOGIN</h1>
