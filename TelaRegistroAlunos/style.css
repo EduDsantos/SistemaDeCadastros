@@ -110,13 +110,19 @@ form h1{
     color: #FFF;
 }
 
-.input-box, .dataNasc::placeholder{
+.nasc{ 
+    width: 62%;
+    display: flex;
+    cursor: pointer;
     color: #ffffff80;
-
 }
 
+
+
+
+
 input{
-    margin-left: 20px;
+    margin-left: 6px;
     background: transparent;
     border: none;
     color: #FFF;
@@ -130,6 +136,20 @@ input{
 .input-box input::placeholder{
     color: #ffffff80;
 }
+
+.sexo{
+    cursor: pointer;
+}
+
+.faixa{
+    display: flex;
+    background-color: rgb(209, 209, 209);
+    margin:100px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+}
+
 
 .container .btn-cadastrar {
     width: 100%;
