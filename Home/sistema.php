@@ -14,7 +14,7 @@ $sql = "SELECT * FROM alunos ORDER BY id DESC";
 
 $result = $conexao->query($sql);
 
-print_r($result);
+
 
 ?>
 
@@ -44,12 +44,17 @@ print_r($result);
     <div class="container">
         <div class="container-alunos">
             <div class="label-alunos">Alunos</div>
-            <button class="btn-icons" name="btn-icons"><img class="img-buttons" src="images/icon_alunos.png" alt=""></button>
+            <button onclick="location.href='../Alunos/index.php' " class="btn-icons" name="btn-icons"><img class="img-buttons" src="images/icon_alunos.png" alt=""></button>
         </div>
 
         <div class="container-pagamentos">
             <div class="label-pagamentos">Pagamentos</div>
             <button class="btn-icons" name="btn-icons"><img class="img-buttons" src="images/icon_din.png" alt=""></button>
+        </div>
+
+        <div class="container-registros">
+            <div class="label-registros">Registrar aluno</div>
+            <button onclick="location.href='../TelaRegistroAlunos/index.php' "  class="btn-icons" name="btn-icons"><img class="img-buttons" src="images/iconRegister.png" alt=""></button>
         </div>
 
     </div>

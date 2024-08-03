@@ -32,6 +32,11 @@ $result = $conexao->query($sql);
     </header>
     <h1>ALUNOS</h1>
 
+    <div class="back">
+        <label>Voltar</label>
+        <a href="../Home/sistema.php"><img class="iconBack" src="images/icon.png" alt="iconeDeVoltar"></a>
+    </div>
+
     <div class="m-5">
         <table class="table table-bg">
             <thead>

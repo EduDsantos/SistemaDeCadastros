@@ -12,6 +12,29 @@ body{
     background-color:  rgb(255, 255, 255);
 }
 
+.back{
+    position: relative;
+    margin-left: 45px;
+    display: flex;
+    
+    
+
+}
+
+.iconBack{
+    margin-left: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(189, 189, 189);    
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: -45px;
+    top: 25px;
+    
+}
+
 .container-header{
     display: flex;
     align-items: end;

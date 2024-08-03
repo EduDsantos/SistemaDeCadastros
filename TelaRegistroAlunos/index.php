@@ -30,8 +30,13 @@ if (isset($_POST['submit'])) {
 
 <body>
 
-    <a href="../TelaInicial/index.php">Voltar</a>
+    <div class="back">
+        <label>Voltar</label>
+        <a href="../Home/sistema.php"><img class="iconBack" src="images/icon.png" alt="iconeDeVoltar"></a>
+    </div>
     <main>
+
+
 
         <div class="container">
             <form action="index.php" method="POST">
@@ -80,7 +85,7 @@ if (isset($_POST['submit'])) {
                 </div>
                 <div class="input-box">
                     <label>Selecione a Faixa</label>
-                    <select  class="faixa" name="faixa">
+                    <select class="faixa" name="faixa">
                         <option selected>FAIXA</option>
                         <option value="Branca">Branca</option>
                         <option value="Azul">Azul</option>
