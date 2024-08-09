@@ -49,7 +49,7 @@ $result = $conexao->query($sql);
 
         <div class="container-pagamentos">
             <div class="label-pagamentos">Pagamentos</div>
-            <button class="btn-icons" name="btn-icons"><img class="img-buttons" src="images/icon_din.png" alt=""></button>
+            <button onclick="location.href='../Pagamentos/index.php'" class="btn-icons" name="btn-icons"><img class="img-buttons" src="images/icon_din.png" alt=""></button>
         </div>
 
         <div class="container-registros">

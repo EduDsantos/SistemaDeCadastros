@@ -9,11 +9,11 @@ if (isset($_POST['submit'])) {
     $data_nasc = $_POST['data_nasc'];
     $email = $_POST['email'];
     $telefone = $_POST['telefone'];
-    $cep = $_POST['cep'];
+    $cep = $_POST['CEP'];
     $faixa = $_POST['faixa'];
 
 
-    $result = mysqli_query($conexao, "INSERT INTO alunos(nome,sobrenome,sexo,data_nasc,email,telefone,cep,faixa)
+    $result = mysqli_query($conexao, "INSERT INTO alunos(nome,sobrenome,sexo,data_nasc,email,telefone,CEP,faixa)
     VALUES('$nome','$sobrenome','$sexo','$data_nasc','$email','$telefone','$cep','$faixa')");
 }
 ?>
