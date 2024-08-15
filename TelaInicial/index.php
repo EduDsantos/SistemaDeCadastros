@@ -24,9 +24,7 @@
             <div class="entrar">
                 <a href="../TelaLogin/index.php">ENTRAR</a>
             </div>
-            <div class="registrar">
-                <a href="../TelaRegistro/index.php">REGISTRAR-SE</a>
-            </div>
+            
         </div>
     </div>
 

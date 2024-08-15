@@ -9,12 +9,13 @@ if (isset($_POST['submit'])) {
     $data_nasc = $_POST['data_nasc'];
     $email = $_POST['email'];
     $telefone = $_POST['telefone'];
-    $cep = $_POST['CEP'];
+    $cep = $_POST['cep'];
     $faixa = $_POST['faixa'];
+    $fatura = $_POST['fatura'];
 
 
-    $result = mysqli_query($conexao, "INSERT INTO alunos(nome,sobrenome,sexo,data_nasc,email,telefone,CEP,faixa)
-    VALUES('$nome','$sobrenome','$sexo','$data_nasc','$email','$telefone','$cep','$faixa')");
+    $result = mysqli_query($conexao, "INSERT INTO alunos(nome,sobrenome,sexo,fatura,data_nasc,email,telefone,cep,faixa)
+    VALUES('$nome','$sobrenome','$sexo','$fatura','$data_nasc','$email','$telefone','$cep','$faixa')");
 }
 ?>
 
@@ -53,7 +54,7 @@ if (isset($_POST['submit'])) {
 
                 <div class="input-box">
                     <label>Data de nasc: </label>
-                    <input type="date" class="nasc" name="data_nasc" class="dataNasc" required>
+                    <input type="date" class="nasc" name="data_nasc" required>
                 </div>
 
                 <div class="input-box">
@@ -83,6 +84,12 @@ if (isset($_POST['submit'])) {
                     <input type="radio" name="sexo" class="sexo" value="outro" required>
                     <label>Outro</label>
                 </div>
+
+                <div class="input-box">
+                    <label>Pagamento/Dia</label>
+                    <input type="number" class="fatura" name="fatura" placeholder="Dia de pagamento" required>
+                </div>
+
                 <div class="input-box">
                     <label>Selecione a Faixa</label>
                     <select class="faixa" name="faixa">
